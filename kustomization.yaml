@@ -1,0 +1,5 @@
+namespace: flux-system
+
+resources:
+  - configmap.yaml
+  - sync-grafana.yaml
