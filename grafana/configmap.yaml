@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grafana-agent
+data:
+  CLUSTER_NAME: ${NAME}
+  CLUSTER_NAME_2: "${NAME}"
+  STATIC: static
+  DO_NOT_REPLACE: ${DO_NOT_REPLACE}
+  DO_NOT_REPLACE_2: "${DO_NOT_REPLACE_2}"
